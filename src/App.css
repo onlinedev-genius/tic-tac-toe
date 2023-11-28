@@ -1,0 +1,35 @@
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-board {
+  margin: 20px;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  font-size: 24px;
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+  text-align: center;
+  line-height: 30px;
+  background-color: #fff;
+  border: 1px solid #999;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: #ddd;
+}
+
+.reset {
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
